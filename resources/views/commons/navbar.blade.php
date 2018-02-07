@@ -14,6 +14,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{ route('signup.get') }}">新規登録</a></li>
                     <li><a href="#">ログイン</a></li>
+                    <li><a href="{{ route('items.create') }}">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                アイテムを追加
+                            </a></li>
                 </ul>
             </div>
         </div>
